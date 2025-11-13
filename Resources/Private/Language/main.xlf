@@ -6,5 +6,10 @@
                 <source>Mouse</source>
             </segment>
         </unit>
+        <unit id="tiger">
+            <segment>
+                <source>Tiger</source>
+            </segment>
+        </unit>
 	</file>
 </xliff>
