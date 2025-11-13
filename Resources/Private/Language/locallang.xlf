@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-	<file source-language="en" datatype="plaintext">
-		<body>
-			<trans-unit id="bee">
-				<source>Bee</source>
-			</trans-unit>
-			<trans-unit id="apple">
-				<source>Apple</source>
-			</trans-unit>
-		</body>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+	<file id="f1">
+        <unit id="bee">
+            <segment>
+                <source>Bee</source>
+            </segment>
+        </unit>
+        <unit id="apple">
+            <segment>
+                <source>Apple</source>
+            </segment>
+        </unit>
 	</file>
 </xliff>
