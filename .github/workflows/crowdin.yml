@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+    paths:
+      - '**.xlf'
 jobs:
   sync:
     name: Synchronize with Crowdin
