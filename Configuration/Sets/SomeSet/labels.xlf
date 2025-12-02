@@ -11,6 +11,9 @@
 			<trans-unit id="pear">
 				<source>Pear</source>
 			</trans-unit>
+			<trans-unit id="Orange">
+				<source>Orange</source>
+			</trans-unit>
 		</body>
 	</file>
 </xliff>
