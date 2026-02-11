@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.2" xmlns="urn:oasis:names:tc:xliff:document:2.2" srcLang="en"
+       xmlns:pgs="urn:oasis:names:tc:xliff:pgs:1.0">
+	<file id="f1">
+        <!-- Examples from https://docs.oasis-open.org/xliff/xliff-core/v2.2/xliff-extended-v2.2-part2.html#d0e23679 -->
+        <!-- Plural -->
+        <unit id="tu1-plural" pgs:switch="plural:file_count">
+            <segment id="seg1" pgs:case="0">
+                <source>You deleted no file.</source>
+            </segment>
+            <segment id="seg2" pgs:case="1">
+                <source>You deleted one file.</source>
+            </segment>
+            <segment id="seg3" pgs:case="other">
+                <source>You deleted <ph id="1" disp="file_count"/> files.</source>
+            </segment>
+        </unit>
+
+        <!-- Ordinal -->
+        <unit id="tu1-ordinal" pgs:switch="ordinal:place">
+            <segment id="seg1" pgs:case="one">
+                <source>You won <ph id="1" disp="place"/>st place</source>
+            </segment>
+            <segment id="seg2" pgs:case="two">
+                <source>You won <ph id="1" disp="place"/>nd place</source>
+            </segment>
+            <segment id="seg3" pgs:case="few">
+                <source>You won <ph id="1" disp="place"/>rd place</source>
+            </segment>
+            <segment id="seg4" pgs:case="other">
+                <source>You won <ph id="1" disp="place"/>th place</source>
+            </segment>
+        </unit>
+
+        <!-- Gender -->
+        <unit id="tu1-gender" pgs:switch="gender:host_gender">
+            <segment id="seg1" pgs:case="feminine">
+                <source>You are invited to her party</source>
+            </segment>
+            <segment id="seg2" pgs:case="masculine">
+                <source>You are invited to his party</source>
+            </segment>
+            <segment id="seg3" pgs:case="other">
+                <source>You are invited to their party</source>
+            </segment>
+        </unit>
+
+        <!-- Combinations -->
+        <unit id="tu1-combinations" pgs:switch="gender:host_gender plural:guest_count">
+            <segment id="seg1" pgs:case="feminine 0">
+                <source><ph id="1" disp="host_name"/> did not invite anyone to her party.</source>
+            </segment>
+            <segment id="seg2" pgs:case="feminine 1">
+                <source><ph id="1" disp="host_name"/> invited one guest to her party.</source>
+            </segment>
+            <segment id="seg3" pgs:case="feminine other">
+                <source><ph id="1" disp="host_name"/> invited <ph id="2" disp="guest_count"/> guests to her party.</source>
+            </segment>
+            <segment id="seg4" pgs:case="masculine 0">
+                <source><ph id="1" disp="host_name"/> did not invite anyone to his party.</source>
+            </segment>
+            <segment id="seg5" pgs:case="masculine 1">
+                <source><ph id="1" disp="host_name"/> invited one guest to his party.</source>
+            </segment>
+            <segment id="seg6" pgs:case="masculine other">
+                <source><ph id="1" disp="host_name"/> invited <ph id="2" disp="guest_count"/> guests to his party.</source>
+            </segment>
+            <segment id="seg7" pgs:case="other 0">
+                <source><ph id="1" disp="host_name"/> did not invite anyone to their party.</source>
+            </segment>
+            <segment id="seg8" pgs:case="other 1">
+                <source><ph id="1" disp="host_name"/> invited one guest to their party.</source>
+            </segment>
+            <segment id="seg9" pgs:case="other other">
+                <source><ph id="1" disp="host_name"/> invited <ph id="2" disp="guest_count"/> guests to their party.</source>
+            </segment>
+        </unit>
+	</file>
+</xliff>

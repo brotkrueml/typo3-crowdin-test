@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+	<file id="f1">
+	    <!-- Example from https://review.typo3.org/c/Packages/TYPO3.CMS/+/85509/10/typo3/sysext/core/Documentation/Changelog/14.2/Feature-104546-SupportPluralFormsInLanguageFiles.rst -->
+        <unit id="day">
+            <segment>
+                <source>%1$s day</source>
+            </segment>
+            <segment>
+                <source>%1$s days</source>
+            </segment>
+        </unit>
+	</file>
+</xliff>

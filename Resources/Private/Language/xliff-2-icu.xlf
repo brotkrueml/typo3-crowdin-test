@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+	<file id="f1">
+	    <!-- Examples from https://review.typo3.org/c/Packages/TYPO3.CMS/+/92468/3/typo3/sysext/core/Documentation/Changelog/14.2/Feature-104546-SupportICUMessageFormatForPluralForms.rst -->
+        <!-- Simple plural form -->
+        <unit id="file_count">
+            <segment>
+                <source>{count, plural, one {# file} other {# files}}</source>
+            </segment>
+        </unit>
+
+        <!-- Plural with zero case -->
+        <unit id="item_count">
+            <segment>
+                <source>{count, plural, =0 {no items} one {# item} other {# items}}</source>
+            </segment>
+        </unit>
+
+        <!-- Combined placeholder and plural -->
+        <unit id="greeting">
+            <segment>
+                <source>Hello {name}, you have {count, plural, one {# message} other {# messages}}.</source>
+            </segment>
+        </unit>
+
+        <!-- Gender selection -->
+        <unit id="profile_update">
+            <segment>
+                <source>{gender, select, male {He} female {She} other {They}} updated the profile.</source>
+            </segment>
+        </unit>
+
+        <!-- Simple named placeholder -->
+        <unit id="welcome">
+            <segment>
+                <source>Welcome, {name}!</source>
+            </segment>
+        </unit>
+	</file>
+</xliff>
