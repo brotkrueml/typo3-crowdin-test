@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="2.2" xmlns="urn:oasis:names:tc:xliff:document:2.2" srcLang="en"
        xmlns:pgs="urn:oasis:names:tc:xliff:pgs:1.0">
-	<file id="f1">
+    <file id="f1">
         <!-- Examples from https://docs.oasis-open.org/xliff/xliff-core/v2.2/xliff-extended-v2.2-part2.html#d0e23679 -->
-        <!-- Plural -->
         <unit id="tu1-plural" pgs:switch="plural:file_count">
+            <notes><note category="section">plural</note></notes>
             <segment id="seg1" pgs:case="0">
                 <source>You deleted no file.</source>
             </segment>
@@ -75,5 +75,5 @@
                 <source><ph id="1" disp="host_name"/> invited <ph id="2" disp="guest_count"/> guests to their party.</source>
             </segment>
         </unit>
-	</file>
+    </file>
 </xliff>
