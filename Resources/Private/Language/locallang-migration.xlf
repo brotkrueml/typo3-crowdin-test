@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:2.2" version="2.2" srcLang="en">
-	<file id="f1">
-        <unit id="potato">
-            <segment>
-                <source>Potato</source>
-            </segment>
-        </unit>
-        <unit id="ananas">
-            <segment>
-                <source>Ananas</source>
-            </segment>
-        </unit>
-        <unit id="pear">
-            <segment>
-                <source>Pear</source>
-            </segment>
-        </unit>
-        <unit id="Orange">
-            <segment>
-                <source>Orange</source>
-            </segment>
-        </unit>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file source-language="en" datatype="plaintext">
+		<body>
+			<trans-unit id="potato">
+				<source>Potato</source>
+			</trans-unit>
+			<trans-unit id="ananas">
+				<source>Ananas</source>
+			</trans-unit>
+			<trans-unit id="pear">
+				<source>Pear</source>
+			</trans-unit>
+			<trans-unit id="Orange">
+				<source>Orange</source>
+			</trans-unit>
+		</body>
 	</file>
 </xliff>
